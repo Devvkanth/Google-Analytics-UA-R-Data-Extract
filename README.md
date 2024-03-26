@@ -1,4 +1,4 @@
-# Google-Analytics-UA-R-Data-Extracti
+# Google-Analytics-UA-R-Data-Extract
 This repository provides R scripts specifically designed for extracting data from Google Analytics Universal Analytics (UA).
 Google Analytics UA Data Extraction with R
 This repository contains R scripts for extracting data from Google Analytics Universal Analytics (UA) using the googleAnalyticsR package. It's designed to help users authenticate with Google Analytics, fetch account lists, and perform various data extraction tasks, including but not limited to user behavior, conversion metrics, and acquisition channels.
