@@ -49,6 +49,43 @@ The script includes commands to write the extracted data to CSV files:
 
 Replace your_data_frame with the variable containing your fetched data, and adjust the file path and name as needed.
 
+This repository contains scripts and data examples for extracting various types of data from Google Analytics (Universal Analytics) using the `googleAnalyticsR` package in R. The data extracted and processed into CSV files provides comprehensive insights into user behavior, demographics, acquisition channels, technology usage, and conversion paths. Below is a summary of the different types of tables/data views created:
+
+# Overview
+
+## Data Tables / Views
+
+- **Google Analytics Account List**: Contains a list of available Google Analytics accounts.
+
+### Audience Data
+- **Audience Overview Data**: Includes metrics like user exits, pageviews, new users, total users, bounces, time on page, sessions, session duration, and unique pageviews.
+- **Audience Behavior - Engagement**: Focuses on engagement metrics such as pageviews and sessions, including detailed session duration analysis.
+- **Audience Behavior - Frequency & Recency**: Analyzes the frequency and recency of visits.
+- **Audience Behavior - New vs. Returning Users**: Differentiates metrics between new and returning users.
+- **Audience Demographics - Age and Gender**: Provides insights into the demographic distribution of users by age and gender.
+- **Audience Geography**: Offers detailed and simplified views of users' geographic distribution by country, metro, city, and state (region).
+
+### Interests and Mobile Overview
+- **Audience Interests - Affinity Categories and In-Market Segments**: Details user interests in affinity categories and in-market segments.
+- **Audience Mobile Overview**: Examines mobile device usage, including device info and branding, categorized by device type (e.g., mobile, tablet, desktop).
+
+### Technology and Behavior Reports
+- **Audience Technology - Browser & Operating System**: Analyzes the technology used by the audience, including browsers and operating systems.
+- **Behavior Report - All Pages**: Provides page-level behavior data.
+- **Behavior Report - Events (Top Events)**: Offers insights into user interactions with the site through events.
+- **Behavior Report - Landing Pages**: Focuses on landing page performance.
+- **Behavior Report - Site Speed (Page Timings)**: Examines page load times.
+
+### Conversions and Page Tracking
+- **Conversions - Goal URLs**: Analyzes the effectiveness of goal completions.
+- **Page Tracking**: Offers a comprehensive view of user interactions across different website pages.
+
+### Acquisition Reports
+- **Acquisition Report By All Traffic**: Covers traffic acquisition by channels and source/medium.
+- **Acquisition Report by Source/Medium**: Provides acquisition data segmented by source and medium.
+- **Acquisition Report by Channel Grouping**: Segments acquisition data by default channel grouping.
+- **Acquisition Report by Social Network Referrals**: Analyzes acquisition data focusing on social network referrals.
+
+
 ## Contributing
 Please feel free to fork this repository, make changes, and submit pull requests. We appreciate your contributions to improve the project!
-
